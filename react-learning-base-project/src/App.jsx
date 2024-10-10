@@ -8,7 +8,13 @@ import AddingCart from './AddingRemoving Products from the Cart/AddingCart';
 import CalculationCart from './DynamicPriceCalculation/CalculationCart';
 
 import CartSummary from './CartSummaryandUIRendering/CartSummary';
+import MainPageCheckOut from './CheckoutProcessComponent/MainPageCheckOut';
+import AltementsMainPage from './AltementComponents/AltementsMainPage';
 import CheckoutForm from './CheckoutForm';
+// import ShippingDetails from './CheckoutProcessComponent/ShippingDetails';
+
+// import CheckoutForm from './CheckoutForm';
+
 
 const App = () => {
   return (
@@ -26,6 +32,11 @@ const App = () => {
       {/* <CartSummary /> */}
       <hr />
       {/* <CheckoutForm /> */}
+
+        {/* <MainPageCheckOut /> */}
+
+        {/* <AltementsMainPage /> */}
+        {/* <CheckoutForm /> */}
     </div>
   )
 }
